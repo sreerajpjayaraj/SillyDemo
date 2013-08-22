@@ -1,0 +1,16 @@
+div{
+	position: absolute;
+	left:0px;top:0px;
+	width:100px;
+	height:100px;
+	background:url('../imgs/Hypnosis-picture copy.png') no-repeat;
+	transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	transition:transform 2s;
+	-webkit-transition:-webkit-transform 2s; /* Safari , chrome*/
+}
+
+div:hover{
+	transform:rotate(0deg);
+	-webkit-transform:rotate(360deg);
+}

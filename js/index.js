@@ -12,4 +12,10 @@ $(document).ready(function() {
 	// Sorry! No web storage support..
 		$('h1').append("nope, no local storage");
 	}
+	
+	
+	var memos=["The"," Array"," works"];
+	window.localStorage.setArray(memos);
+	var testArr=window.localStorage.getArray();
+	$("#text").html(testArr);
 });
